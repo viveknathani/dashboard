@@ -1,5 +1,5 @@
 const repositories = [
-    {owner: 'viveknathani', repo: 'binge', workflows: []},
+    {owner: 'viveknathani', repo: 'binge', workflows: ['lint', 'test']},
     {owner: 'viveknathani', repo: 'collector', workflows: ['build', 'deploy']},
     {owner: 'viveknathani', repo: 'delp', workflows: ['build', 'test']},
     {owner: 'viveknathani', repo: 'kkrh', workflows: ['lint-go', 'test-go', 'deploy-server']},
